@@ -13,7 +13,7 @@ npm test
 
 ## Documentation
 ~~~ javascript
-ed25519(jwtHeader, jwtPayload, privateKey)
+jwt-ed25519(jwtHeader, jwtPayload, privateKey)
 ~~~
   * jwtHeader `JWT header (object or string)`
   * jwtPayload `JWT payload (object or string)`

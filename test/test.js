@@ -1,4 +1,4 @@
-const ed25519 = require('../jwt-ed25519')
+const ed25519 = require('../index')
 
 const jwtHeader = {
     alg: 'EdDSA',
