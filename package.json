@@ -1,6 +1,6 @@
 {
   "name": "@ngti/jwt-ed25519",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generates a JWT using Ed25519 signature",
   "main": "index.js",
   "scripts": {
