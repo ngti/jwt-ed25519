@@ -1,0 +1,21 @@
+{
+  "name": "jwt-ed25519",
+  "version": "1.0.0",
+  "description": "Generates a JWT using Ed25519 signature",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "JWT",
+    "elliptic curve",
+    "25519",
+    "ed25519"
+  ],
+  "author": "NGTI",
+  "license": "MIT",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "ed25519": "0.0.4"
+  }
+}
