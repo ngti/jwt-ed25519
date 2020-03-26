@@ -17,7 +17,7 @@ jwt-ed25519(jwtHeader, jwtPayload, privateKey)
 ~~~
   * jwtHeader `JWT header (object or string)`
   * jwtPayload `JWT payload (object or string)`
-  * privateKey `Private Key which is going to be used to sign the JWT with Ed25519`
+  * privateKey `Private Key (in UTF-8) which is going to be used to sign the JWT with Ed25519`
   
 ## Usage
 ~~~ javascript
