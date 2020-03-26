@@ -1,5 +1,5 @@
 {
-  "name": "jwt-ed25519",
+  "name": "@ngti/jwt-ed25519",
   "version": "1.0.0",
   "description": "Generates a JWT using Ed25519 signature",
   "main": "index.js",
@@ -17,5 +17,17 @@
   "dependencies": {
     "base64url": "^3.0.1",
     "ed25519": "0.0.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngti/jwt-ed25519.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngti/jwt-ed25519/issues"
+  },
+  "homepage": "https://github.com/ngti/jwt-ed25519#readme"
 }
