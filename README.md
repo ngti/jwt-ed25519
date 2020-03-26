@@ -3,7 +3,7 @@ Signs a JWT using Edwards-curve Ed25519
 
 ## Installation
 ~~~
-npm install jwt-ed25519
+npm install @ngti/jwt-ed25519
 ~~~
 
 ## Test
@@ -21,7 +21,7 @@ ed25519(jwtHeader, jwtPayload, privateKey)
   
 ## Usage
 ~~~ javascript
-const ed25519 = require('../ed25519')
+const ed25519 = require('@ngti/jwt-ed25519')
 
 const jwtHeader = {
     alg: 'EdDSA',
